@@ -18,6 +18,8 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
+    const CREATED_AT = 'creatime';
+
     /**
      * The attributes that are mass assignable.
      *
